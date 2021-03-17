@@ -1,0 +1,51 @@
+.debug [class*="col-"] {
+  background-color: rgb(17, 177, 226);
+  border: 1px solid black;
+  min-height: 100px;
+}
+
+/* NAV */
+nav {
+  background-color: #2C3E50;
+  height: 100px;
+}
+
+nav .nav-left, 
+.nav-right > * {
+  color: white;
+  border: 1px solid white;
+  min-height: 100px;
+}
+
+/* HEADER */
+header {
+  background-color: #1ABC9C;
+  height: 800px;
+}
+
+header > div:first-child {
+  margin-top: 200px;
+}
+
+/* ABOUT */
+.about {
+  background-color: #1ABC9C;
+  height: 100%;
+  padding: 50px 0;
+}
+
+/* CONTACT ME */
+.contact-me > div:last-child {
+  margin-top: 100px;
+}
+
+/* FOOTER */
+.links {
+  background-color: #3A546D;
+  height: 100%;
+  padding: 50px 0;
+}
+
+.copyright {
+  background-color: #2C3E50;
+}
