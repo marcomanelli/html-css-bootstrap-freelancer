@@ -17,110 +17,135 @@
     <!-- Style -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
-    <!-- Nav -->
-    <div class="container-fluid">
-      <nav class="row">
-        <div class="col-12">
-          <div class="nav-left col-xs-5 text-center">LOGO</div>
 
-          <div class="nav-right">
-            <div class="col-xs-2 col-xs-push-5 visible-xs-block text-center">
-              HAMBURGER
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="mm-header-top mm-bg-gray text-uppercase">
+        <div class="container">
+          <div class="row">
+            <div class="header-left col-xs-6">
+              <h1>Start Bootstrap</h1>
             </div>
 
-            <div class="col-sm-4 col-sm-push-3 hidden-xs text-center">MENU</div>
+            <div class="header-right col-xs-6 text-right">
+              <div class="visible-xs-block">HAMBURGER</div>
+
+              <div class="hidden-xs">
+                <ul class="list-inline">
+                  <li>Portfolio</li>
+                  <li>About</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </div>
-
-    <!-- Header -->
-    <div class="container-fluid debug">
-      <header class="row">
-        <div class="col-xs-10 col-xs-push-1 text-center">IMG</div>
-
-        <div class="col-xs-10 col-xs-push-1 text-center">TITLE</div>
-
-        <div class="col-xs-10 col-xs-push-1 text-center">STAR</div>
-
-        <div class="col-xs-10 col-xs-push-1 text-center">SUBTITLE</div>
-      </header>
-    </div>
-
-    <!-- Portfolio -->
-    <div class="container debug">
-      <!-- Title -->
-      <div class="row">
-        <div class="col-xs-8 col-xs-push-2 text-center">TITLE</div>
-
-        <div class="col-xs-8 col-xs-push-2 text-center">STAR</div>
       </div>
 
-      <!-- Images -->
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-4 text-center">immagine</div>
-        <div class="col-xs-12 col-sm-6 col-lg-4 text-center">immagine</div>
-        <div class="col-xs-12 col-sm-6 col-lg-4 text-center">immagine</div>
-        <div class="col-xs-12 col-sm-6 col-lg-4 text-center">immagine</div>
-        <div class="col-xs-12 col-sm-6 col-lg-4 text-center">immagine</div>
-        <div class="col-xs-12 col-sm-6 col-lg-4 text-center">immagine</div>
-      </div>
-    </div>
+      <!-- Header Bottom -->
+      <div class="mm-header-bottom mm-bg-green">
+        <div class="container debug">
+          <div id="mm-jumbotron" class="row">
+            <div class="col-xs-10 col-xs-push-1 text-center">IMG</div>
 
-    <!-- About -->
-    <div class="about container-fluid debug">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-4 col-xs-push-4 text-center">TITLE</div>
-          <div class="clearfix visible-xs-sm-md-lg-block"></div>
-  
-          <div class="col-xs-4 col-xs-push-4 text-center">STAR</div>
-          <div class="clearfix visible-xs-sm-md-lg-block"></div>
-  
-          <div class="col-xs-8 col-xs-push-2 text-left">TEXT-1</div>
-  
-          <div class="col-xs-8 col-xs-push-2 text-left">TEXT-2</div>
-          <div class="clearfix visible-xs-sm-md-lg-block"></div>
-  
-          <div class="col-xs-2 col-xs-push-5 text-center">BUTTON</div>
+            <div class="col-xs-10 col-xs-push-1 text-center">TITLE</div>
+
+            <div class="col-xs-10 col-xs-push-1 text-center">STAR</div>
+
+            <div class="col-xs-10 col-xs-push-1 text-center">SUBTITLE</div>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
 
-    <!-- Contact Me -->
-    <div class="container debug">
-      <div class="contact-me row">
-        <div class="col-xs-4 col-xs-push-4 text-center">TITLE</div>
-        <div class="clearfix visible-xs-sm-md-lg-block"></div>
+    <main>
+      <!-- Portfolio -->
+      <section class="container debug">
+        <!-- Title -->
+        <div class="row">
+          <div class="col-xs-12 text-center">TITLE</div>
 
-        <div class="col-xs-4 col-xs-push-4 text-center">STAR</div>
-        <div class="clearfix visible-xs-sm-md-lg-block"></div>
+          <div class="col-xs-8 col-xs-push-2 text-center">STAR</div>
+        </div>
 
-        <div class="col-xs-8 col-xs-push-2 text-left">TEXT-1</div>
-        <div class="col-xs-8 col-xs-push-2 text-left">TEXT-2</div>
-        <div class="col-xs-8 col-xs-push-2 text-left">TEXT-3</div>
-        <div class="col-xs-8 col-xs-push-2 text-left">TEXT-4</div>
+        <!-- Images -->
+        <div class="row text-center">
+          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
+          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
+        </div>
+      </section>
 
-        <div class="col-xs-8 col-xs-push-2 text-left">BUTTON</div>
-      </div>
-    </div>
+      <!-- About -->
+      <section class="about container-fluid debug">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4 col-xs-push-4 text-center">TITLE</div>
+            <div class="clearfix visible-xs-sm-md-lg-block"></div>
+
+            <div class="col-xs-4 col-xs-push-4 text-center">STAR</div>
+            <div class="clearfix visible-xs-sm-md-lg-block"></div>
+
+            <div class="col-xs-8 col-xs-push-2 text-left">TEXT-1</div>
+
+            <div class="col-xs-8 col-xs-push-2 text-left">TEXT-2</div>
+            <div class="clearfix visible-xs-sm-md-lg-block"></div>
+
+            <div class="col-xs-2 col-xs-push-5 text-center">BUTTON</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Me -->
+      <section class="container debug">
+        <div class="contact-me row">
+          <div class="col-xs-4 col-xs-push-4 text-center">TITLE</div>
+          <div class="clearfix visible-xs-sm-md-lg-block"></div>
+
+          <div class="col-xs-4 col-xs-push-4 text-center">STAR</div>
+          <div class="clearfix visible-xs-sm-md-lg-block"></div>
+
+          <div class="col-xs-8 col-xs-push-2 text-left">TEXT-1</div>
+          <div class="col-xs-8 col-xs-push-2 text-left">TEXT-2</div>
+          <div class="col-xs-8 col-xs-push-2 text-left">TEXT-3</div>
+          <div class="col-xs-8 col-xs-push-2 text-left">TEXT-4</div>
+
+          <div class="col-xs-8 col-xs-push-2 text-left">BUTTON</div>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
       <div class="links ontainer-fluid debug">
         <div class="container">
           <div class="row">
-            <div class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-0 text-center">location</div>
-            
-            <div class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-0 text-center">web</div>
-            
-            <div class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-0 text-center">about freelancer</div>
+            <div
+              class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-0 text-center"
+            >
+              location
+            </div>
+
+            <div
+              class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-0 text-center"
+            >
+              web
+            </div>
+
+            <div
+              class="col-xs-10 col-xs-push-1 col-md-4 col-md-push-0 text-center"
+            >
+              about freelancer
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="copyright ontainer-fluid debug">
+      <div class="copyright container-fluid mm-bg-gray debug">
         <div class="container">
           <div class="row">
             <div class="col-xs-8 col-xs-push-2 text-center">copyright</div>
