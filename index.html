@@ -21,11 +21,12 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="mm-header-top mm-bg-gray text-uppercase">
+      <div class="mm-header-top mm-bg-gray text-uppercase height-100px">
         <div class="container">
           <div class="row">
             <div class="header-left col-xs-6">
-              <h1>Start Bootstrap</h1>
+              <h1 class="hidden-xs hidden-sm">Start Bootstrap</h1>
+              <h2 class="hidden-md hidden-lg">Start Bootstrap</h2>
             </div>
 
             <div class="header-right col-xs-6 text-right">
@@ -33,9 +34,9 @@
 
               <div class="hidden-xs">
                 <ul class="list-inline">
-                  <li>Portfolio</li>
-                  <li>About</li>
-                  <li>Contact</li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -45,15 +46,13 @@
 
       <!-- Header Bottom -->
       <div class="mm-header-bottom mm-bg-green">
-        <div class="container debug">
-          <div id="mm-jumbotron" class="row">
-            <div class="col-xs-10 col-xs-push-1 text-center">IMG</div>
-
-            <div class="col-xs-10 col-xs-push-1 text-center">TITLE</div>
-
-            <div class="col-xs-10 col-xs-push-1 text-center">STAR</div>
-
-            <div class="col-xs-10 col-xs-push-1 text-center">SUBTITLE</div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 col-xs-push-1 text-center text-uppercase">
+              <img src="assets/img/avatar.svg" alt="avatar" />
+              <h1>Start Bootstrap</h1>
+              <h3>Graphic Artist - Web Designer - Illustrator</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -61,22 +60,41 @@
 
     <main>
       <!-- Portfolio -->
-      <section class="container debug">
+      <section class="container">
         <!-- Title -->
         <div class="row">
-          <div class="col-xs-12 text-center">TITLE</div>
+          <div class="col-xs-12 text-center text-uppercase">
+            <h1>Portfolio</h1>
+          </div>
 
           <div class="col-xs-8 col-xs-push-2 text-center">STAR</div>
         </div>
 
         <!-- Images -->
-        <div class="row text-center">
-          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
-          <div class="col-xs-12 col-sm-6 col-lg-4">immagine</div>
+        <div id="images" class="row text-center">
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="assets/img/cabin.png" alt="cabin">
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="assets/img/cake.png" alt="cake">
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="assets/img/circus.png" alt="circus">
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="assets/img/game.png" alt="game">
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="assets/img/safe.png" alt="safe">
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <img src="assets/img/submarine.png" alt="submarine">
+          </div>
         </div>
       </section>
 
